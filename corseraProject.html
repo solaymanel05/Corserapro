@@ -1,0 +1,104 @@
+<html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style type="text/css">
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    width:100vw;
+    height:100vh;
+    background:#000;
+}
+.title h2{
+font-size:40px;
+text-align:center;
+margin: auto;
+color:gold;
+text-transform:uppercase;
+
+    
+}
+.main{
+    display:flex;
+    
+}
+.beef{
+padding:10px;
+
+    
+}
+.salads{
+padding:10px;
+    
+}
+.chicken{
+padding:10px;
+    
+}
+
+h3{
+    border:2px solid #000;
+    padding:5px;
+    text-align:center;
+    background: gold;
+    font-weight:800;
+    color:#000;
+    letter-spacing:2px;
+    border-radius:10px;
+    text-transform:uppercase;
+}
+p{
+    border:2px solid gold;
+    padding:5px;
+    text-align:center;
+    background:#000;
+    color:gold;
+    border-radius:10px;
+    
+    
+}
+@media screen and (max-width:900px){ /*print*/
+.main{
+    display:flex;
+    flex-direction:column;
+}
+}
+@media (min-width:950px) and (max-width:1250px){
+.main{
+    display:flex;
+    flex-direction:row;
+}
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="title"><h2>Our menu</h2></div>
+    <div class="main">
+        <div class="beef">
+            <h3>beef</h3>
+            <p> lorem add something lorem add       something lorem add something lorem add something lorem add something lorem add something  lorem add something </p>        
+        </div>
+        <div class="salads">
+            <h3>salads</h3>
+            <p> lorem add something lorem add       something lorem add something lorem add something lorem add something lorem add something  lorem add something </p>
+
+        </div>
+        <div class="chicken">
+            <h3>chicken</h3>
+            <p> lorem add something lorem add       something lorem add something lorem add something lorem add something lorem add something  lorem add something </p>
+
+        </div>   
+    </div>
+    
+    
+</body>
+</html>
